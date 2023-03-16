@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@300&family=Josefin+Sans:wght@200;300;400&family=Prata&display=swap');
+*{
+    margin-inline: 4px;
+}
+
+/* 775px also needs an article width modification */
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Prata', serif;
+}
+
+.link{
+    margin-block: 1em;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    background-color: black;
+    color: rgb(105, 97, 97);
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    /* display: flex;
+    justify-content: space-between; */
+    margin-top: 2em;
+    color: white;
+}
+
+.logo-name{
+    font-size: 1em;
+    font-family: 'Prata', serif;
+    word-spacing: -.1em;
+}
+
+.header-items-mobile{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+    justify-content: space-between;
+}
+
+#bars{
+    font-size: 1.5em;
+    color: white;
+    align-self: center;
+}
+
+.intro{
+    margin-top: 3.6em;
+}
+
+.intro h1{
+    font-family: 'Prata', serif;
+    color: white;
+}
+
+.intro p{
+    margin-top: -.8em;
+    line-height: 1.6em;
+}
+
+.logos-of-companies-worked-with-margin{
+    display: flex;
+    justify-content: center;
+    margin-block: 5.4em;
+}
+
+.logos-of-companies-worked-with-flex{
+    display: flex;
+    gap: .7em;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logos-of-companies-worked-with-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
+
+.logos-of-companies-worked-with{
+    display: flex;
+    flex-direction: column;
+}
+
+.company-logos-desktop{
+    display: none;
+}
+
+.img-flex{
+    display: flex;
+    justify-content: center;
+    margin-inline: 4px;
+}
+
+.img-width{
+    width: 21em;
+}
+
+.img-width-alt{
+    display: none;
+}
+
+article{
+    width: 100.3vw;
+    background-color: rgb(26, 24, 24);
+    margin-inline: -.8em;
+    padding-block: 1.6em;
+    margin-top: 2em;
+}
+
+.main-section-first-flex h1{
+    color: white;
+    font-family: 'Prata', serif;
+    font-size: 1.8em;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.get-in-touch{
+    margin-top: 3.4em;
+}
+
+.first-paragraph{
+    color: white;
+    font-family: 'Prata', serif;
+    font-size: 1.8em;
+
+}
+
+.second-paragraph{
+    margin-top: -1.4em;
+}
+
+.header-button{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding-inline: .5em;
+    padding-block: -10em;
+    background-color: yellow;
+    width: 8em;
+    font-family: 'Prata', serif;
+    color: black;
+    cursor: alias;
+    margin-bottom: 3.5em;
+}
+
+footer{
+    margin-bottom: -5em;
+    background-color: rgb(26, 24, 24);
+    margin-inline: -1em;
+    display: flex;
+    gap: 5.5em;
+    padding-block: 1em;
+    justify-content: center;
+    width: 101vw;
+}
+
+.logo-name-footer{
+    display: none;
+}
+
+.footer-contact-flex-desktop{
+    display: none;
+}
+
+.footer-centered{
+    display: none;
+}
+
+.desktop-header{
+    display: none;
+}
+
+.for-tablet{
+        display: none;
+}
+
+.company-logos-tablet{
+    display: none;
+}
+
+@media all and (min-width: 379px){
+    
+    .company-logos-tablet{
+        display: none;
+    }
+
+    .flex-review-desktop{
+        display: none;
+    }
+
+    .Spense-flex-review{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .Yelp-flex-review{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .for-tablet{
+        display: none;
+    }
+
+    .flex-review-desktop{
+        display: none;
+    }
+
+    footer{
+        margin-bottom: -5em;
+        background-color: rgb(26, 24, 24);
+        margin-inline: -1em;
+        display: flex;
+        gap: 1em;
+        padding-block: 1em;
+        justify-content: center;
+        width: 100vw;
+    }
+}
+
+@media all and (min-width: 380px){
+    
+    .flex-review-content{
+        text-align: center;
+    }
+
+    .flex-review{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+}
+
+@media all and (min-width: 380px){
+    .second-paragraph{
+        max-width: 25em;
+    }
+
+    footer{
+        margin-bottom: -5em;
+        background-color: rgb(26, 24, 24);
+        margin-inline: -1em;
+        display: flex;
+        /* gap: 5.5em; */
+        padding-block: 1em;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    footer>*{
+        margin-inline: 2em;
+    }
+}
+
+@media all and (min-width: 508px){
+
+    article{
+        width: 100vw;
+        background-color: rgb(26, 24, 24);
+        margin-inline: -.8em;
+        padding-block: 1.6em;
+        margin-top: 2em;
+    }
+
+    footer{
+        padding-block: 2em;
+    }
+}
+
+@media all and (min-width: 600px){
+
+    .company-logos-tablet{
+        padding-top: 3em;
+    }
+
+    .flex-review{
+        padding-top: 2em;
+    }
+    
+    .img-width{
+        width: 30em;
+    }
+
+    .logos-of-companies-worked-with-flex{
+        gap: 2em;
+    }
+
+    .logos-of-companies-worked-with-container{
+        gap: 3em;
+    }
+}
+
+@media all and (min-width: 700px) and (max-width: 779px){
+    
+    footer{
+        font-size: .8em;
+    }
+}
+
+@media all and (min-width: 700px) and (max-width: 903px){
+    article{
+        width: 100.4vw;
+        background-color: rgb(26, 24, 24);
+        margin-inline: -.8em;
+        padding-block: 1.6em;
+        margin-top: 2em;
+    }
+}
+
+@media all and (min-width: 700px) and (max-width: 900px){
+
+    body{
+        font-size: 1.2em;
+    }
+    .intro-tablet{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .intro-tablet p{
+        max-width: 600px;
+    }
+
+    .intro-tablet h1{
+        max-width: 20em;
+    }
+
+    .company-logos-tablet{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: .5em;
+        padding-bottom: 2em;
+    }
+
+    .tablet-logos-first-flex{
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    .tablet-logos-second-flex{
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    .company-logos-tablet>*{
+        width: 6em;
+    }
+
+    .company-logos-desktop{
+        display: none;
+    }
+
+    .flex-review-content{
+        align-self: center;
+    }
+
+    .logos-of-companies-worked-with-margin{
+        display: none;
+    }
+
+    .footer-centered{
+        display: flex;
+    }
+
+    footer{
+        gap: 20em;
+    }
+
+    .main-footer{
+        background-color: red;
+        background-color: rgb(26, 24, 24);
+        width: 111.7%;
+        height: 4%;
+        color: rgb(105, 97, 97);
+        margin-inline: -13em;
+        margin-block: 5em;
+        /* padding-bottom: 10px; */
+        position: absolute;
+        display: none;
+    }
+
+}
+
+@media all and (min-width: 780px) and (max-width: 899px){
+    
+    .flex-review-content{
+        max-width: 30em;
+    }
+}
+
+@media all and (min-width: 900px) and (max-width: 1439px){
+
+}
+
+@media all and (min-width: 900px) and (max-width: 1439px){
+    
+    /* *{
+        margin-left: 10px;
+        margin-top: 10px;
+    } */
+
+    article{
+        width: 100.5vw;
+    }
+
+    body{
+        background-color: black;
+        font-size: 1.6em;
+    }
+
+    .intro{
+        max-width: 34em;
+    }
+
+    .logos-of-companies-worked-with-margin{
+        display: none;
+    }
+
+    .company-logos-tablet{
+        display: flex;
+    }
+
+    .company-logos-tablet{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        padding-bottom: 2em;
+    }
+
+    .tablet-logos-first-flex{
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    .tablet-logos-second-flex{
+        display: flex;
+        gap: 2.6em;
+        justify-content: center;
+    }
+
+    .flex-review-content{
+        text-align: start;
+        max-width: 40em;
+    }
+
+    .Spense-flex-review{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Yelp-flex-review{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .img-width{
+        align-self: center;
+        width: 95vw;
+        /* margin-inline: auto; */
+        display: none;
+    }
+
+    .img-width-alt{
+        display: inline;
+    }
+}
+
+@media all and (min-width: 1100px){
+    .logo{
+        width: 6em;
+    }
+}
+
+
+@media all and (min-width: 1440px){
+    *{
+        margin-inline: 20px;
+    }
+   
+    /* body{
+        display: flex;
+        justify-content: center;
+    } */
+    .header-items-mobile{
+        display: none;
+    }
+
+    .desktop-header{
+        margin-inline: -60px;
+        display: flex;
+        gap: 5em;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .header-info-flex{
+        display: flex;
+        gap: 1em;
+        font-size: .4em;
+    }
+
+    .header-button{
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        padding-block: -10em;
+        background-color: yellow;
+        width: 10em;
+        font-family: 'Prata', serif;
+        color: black;
+        cursor: alias;
+        margin-bottom: 3.5em;
+    }
+
+    .intro-tablet{
+        display: inline;
+    }
+    
+    .logos-of-companies-worked-with-margin{
+        display: none;
+    }
+
+    .company-logos-desktop{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 4em;
+        margin-block: 5em;
+    }
+
+    .logo{
+        width: 5.5em;
+    }
+
+    .intro{
+        max-width: 40em;
+        margin-left: 3%;
+    }
+
+    .intro h1{
+        font-size: 3.3em;
+    }
+
+    .intro p{
+        max-width: 34em;
+    }
+
+    .flex-review{
+        display: none;
+        justify-content: space-between;
+    }
+
+    .flex-review-desktop{
+        display: flex;
+        gap: 6em;
+    }
+
+    .Spense-flex-review{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Spense-flex-review{
+        max-width: 33em;
+    }
+
+    .Yelp-flex-review{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .img-width{
+        width: 33em;
+    }
+
+    article{
+        /* width: 100%; */
+    }
+
+    /* .article-section{
+        margin-inline: -3.7em;
+    } */
+
+    .main-section{
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+    }
+
+    .container-flex{
+        max-width: 40em;
+        min-width: 34em;
+    }
+
+    .main-section-first-content{
+        margin-left: 2.5em;
+    }
+
+    .main-section-second-content{
+        margin-right: 5em;
+    }
+
+    .flex-review-content{
+        max-width: 10px;
+        display: none;
+    }
+
+    .flex-review-desktop a{
+        margin-top: .4em;
+    }
+
+    
+    article{
+        width: 100.3vw;
+        background-color: rgb(26, 24, 24);
+        margin-inline: -4em;
+        padding-block: 1.6em;
+        /* padding-block: 0; */
+    }
+
+    .first-paragraph{
+        font-size: 2.12em;
+    }
+
+    .second-paragraph{
+        max-width: 30em;
+    }
+
+    footer{
+        margin-bottom: -5em;
+        background-color: rgb(26, 24, 24);
+        margin-inline: -6px;
+        display: flex;
+        gap: 5.5em;
+        /* padding-block: 1em; */
+        justify-content: center;
+        width: 100%;
+        display: none;
+    }
+
+    .footer-margin{
+        background-color: black;
+        background-color: rgb(26, 24, 24);
+        margin-inline: -6.3em;
+        padding-block: 1.6em;
+    }
+
+    .logo-name-footer{
+        display: inline;
+    }
+    .footer-desktop{
+        background-color: black;
+        padding-block: 1em;
+        width: 100%;
+    }
+
+    .footer-centered{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+        display: none;
+    }
+
+    .footer-main-flex{
+        display: flex;
+        justify-content: space-around;
+        gap: 48em;
+        margin-inline: 76px;
+    }
+
+    .footer-contact-flex-desktop{
+        display: flex;
+    }
+
+    .main-footer{
+        background-color: red;
+        background-color: rgb(26, 24, 24);
+        width: 110vw;
+        height: 6%;
+        color: rgb(105, 97, 97);
+        margin-inline: -13em;
+        margin-block: 1em;
+        padding-bottom: 10px;
+        position: absolute;
+    }
+
+    .main-footer-content{
+        display: flex;
+        justify-content: space-around;
+        gap: 35.4em;
+        margin-left: 10.6em;
+        align-items: center;
+        margin-top: .6em;
+        
+    }
+
+    .main-footer-content >*{
+        margin-top: 1.9em;
+    }
+}
+
+
