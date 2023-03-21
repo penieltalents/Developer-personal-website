@@ -65,9 +65,9 @@ header{
     line-height: 1.6em;
 }
 
-.logo-size{
+/* .logo-size{
     width: 20%;
-}
+} */
 
 .logos-of-companies-worked-with-margin{
     display: flex;
@@ -104,7 +104,7 @@ header{
 }
 
 .img-width{
-    width: 21em;
+    width: 100%;
 }
 
 .img-width-alt{
@@ -112,7 +112,7 @@ header{
 }
 
 article{
-    width: 100.3vw;
+    width: 100vw;
     background-color: rgb(26, 24, 24);
     margin-inline: -.8em;
     padding-block: 1.6em;
@@ -129,8 +129,8 @@ article{
     display: flex;
     flex-direction: column;
     gap: 2em;
-    font-size: .8em;
-    /* font-size: 1em; */
+    /* font-size: .8em; */
+    font-size: 1em;
 }
 
 .get-in-touch{
@@ -201,6 +201,10 @@ footer{
 
 .flex-review-desktop{
     display: none;
+}
+
+.flex-review{
+    display: n;
 }
 
 @media all and (min-width: 379px){
@@ -279,6 +283,7 @@ footer{
     footer>*{
         margin-inline: 2em;
     }
+    
 }
 
 @media all and (min-width: 508px){
