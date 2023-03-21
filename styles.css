@@ -65,6 +65,10 @@ header{
     line-height: 1.6em;
 }
 
+.logo-size{
+    width: 20%;
+}
+
 .logos-of-companies-worked-with-margin{
     display: flex;
     justify-content: center;
@@ -161,9 +165,11 @@ footer{
     background-color: rgb(26, 24, 24);
     margin-inline: -1em;
     display: flex;
-    gap: 5.5em;
+    gap: 1em;
     padding-block: 1em;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* gap: 5.5em; */
     width: 101vw;
 }
 
@@ -188,6 +194,10 @@ footer{
 }
 
 .company-logos-tablet{
+    display: none;
+}
+
+.flex-review-desktop{
     display: none;
 }
 
